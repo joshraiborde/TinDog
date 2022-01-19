@@ -1,42 +1,95 @@
 body {
-    font-family: 'Montserrat';
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 #title {
-    background-color: #ff4c68;
-    color: white;
-    
+  background-color: #ff4c68;
+  color: white;
 }
 .container-fluid {
-    padding: 3% 15%;
+  padding: 7% 15%;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
 }
 
-.iphone-mockup {
-    transform: rotate(20deg);
+h3 {
+  font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 .meet-dogs-message {
-    font-size: 100px;
-    font-weight: 900;
+  font-size: 3.5rem;
 }
-
 
 /* Navigation Bar */
 
 .navbar {
-    padding-bottom: 2.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: purple;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: purple;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  /* font-style: italic; */
+  color: blue;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* FEATURES */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.row {
+  /* padding: 4.5rem; */
+}
+
+.icon {
+  /* font-size: 2.5rem; */
+  margin-bottom: 1rem;
+  color: #ff4c68;
+}
+
+.icon:hover {
+  color: #ef8172;
 }
