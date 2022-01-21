@@ -3,40 +3,43 @@ body {
   text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: white;
+h1,
+h2,
+h3 {
+  font-weight: 900;
 }
-.container-fluid {
-  padding: 3% 15% 7%;
+
+h1,
+h2 {
+  line-height: 1.5;
 }
 
 h1 {
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
   text-align: left;
-}
-
-h2 {
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h3 {
-  font-weight: 900;
 }
 
 p {
   color: #8f8f8f;
 }
 
+/* CONTAINER SECTIONS */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* HEADINGS SECTION */
+
 .meet-dogs-message {
   font-size: 3.5rem;
 }
 
-/* Navigation Bar */
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* NAVIGATION BAR */
 
 .navbar {
   padding: 0 0 4.5rem;
@@ -59,10 +62,22 @@ p {
   color: blue;
 }
 
+
 /* DOWNLOAD BUTTONS */
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#title .container-fluid {
+  padding: 1% 15% 7%;
 }
 
 /* TITLE IMAGE */
@@ -77,14 +92,16 @@ p {
 /* FEATURES SECTION */
 
 #features {
-  padding: 7% 15%;
   background-color: white;
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
 }
 
 .icon {
@@ -109,8 +126,9 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 #press {
@@ -131,24 +149,26 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
 /* CTA SECTION */
 
 #cta {
   background-color: #ff4c68;
   color: white;
-  padding: 7% 15%;
 }
 
 .cta-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-  font-weight: 900;
+  font-size: 3.5rem;
 }
 
 /* FOOTER SECTION */
+
 #footer {
-  padding: 7% 15%;
+  padding: 1% 15%;
   background-color: white;
 }
 .social-icon {
@@ -161,10 +181,12 @@ p {
 }
 
 /* MEDIA SECTION */
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
   }
+
   .meet-dogs-message {
     text-align: center;
   }
