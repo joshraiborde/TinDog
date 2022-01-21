@@ -12,7 +12,6 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
@@ -56,9 +55,7 @@ p {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat";
   font-weight: 300;
-  /* font-style: italic; */
   color: blue;
 }
 
@@ -91,7 +88,6 @@ p {
 }
 
 .icon {
-  /* font-size: 2.5rem; */
   margin-bottom: 1rem;
   color: #ff4c68;
 }
@@ -103,7 +99,6 @@ p {
 /* TESTIMONIAL SECTION */
 
 #testimonials {
-  
   background-color: #ef8172;
   color: white;
 }
@@ -117,7 +112,6 @@ p {
 .carousel-item {
   padding: 7% 15%;
 }
-
 
 #press {
   background-color: #ef8172;
@@ -146,7 +140,7 @@ p {
   padding: 7% 15%;
 }
 
-.cta-heading{
+.cta-heading {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
@@ -168,10 +162,10 @@ p {
 
 /* MEDIA SECTION */
 @media (max-width: 1028px) {
-  #title{
+  #title {
     text-align: center;
   }
-  .meet-dogs-message{
+  .meet-dogs-message {
     text-align: center;
   }
   .title-image {
