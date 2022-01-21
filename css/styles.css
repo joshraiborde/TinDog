@@ -138,6 +138,35 @@ p {
   padding: 3% 2%;
 }
 
+/* CTA SECTION */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* FOOTER SECTION */
+#footer {
+  padding: 7% 15%;
+  background-color: white;
+}
+.social-icon {
+  margin: 20px 10px;
+  color: black;
+}
+
+.copyright {
+  color: black;
+}
+
+/* MEDIA SECTION */
 @media (max-width: 1028px) {
   #title{
     text-align: center;
