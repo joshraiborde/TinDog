@@ -28,6 +28,17 @@ p {
   padding: 7% 15%;
 }
 
+/* SECTIONS */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
 /* HEADINGS SECTION */
 
 .meet-dogs-message {
@@ -70,11 +81,6 @@ p {
 
 /* TITLE SECTION */
 
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
 #title .container-fluid {
   padding: 1% 15% 7%;
 }
@@ -91,7 +97,6 @@ p {
 /* FEATURES SECTION */
 
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -116,7 +121,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: white;
 }
 
 .testimonial-image {
@@ -154,11 +158,6 @@ p {
 }
 
 /* CTA SECTION */
-
-#cta {
-  background-color: #ff4c68;
-  color: white;
-}
 
 .cta-heading {
   font-size: 3.5rem;
